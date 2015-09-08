@@ -7,7 +7,7 @@ This service does not currently do anything very useful and is more set up to ex
 Usage
 -----
 
-Run application with command argument ```--secret='API_SECRET'```.
+Run application with jvm argument ```-Dreddit-credentials.secret=API_SECRET```.
  
 If you do not have a API id and secret follow instructions found on the 
 [Reddit OAuth page](https://github.com/reddit/reddit/wiki/OAuth2). After plugging these into application.properties
